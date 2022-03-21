@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/inner_page"
+    tools:context=".fragments.DuwaFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_mahe_romjan"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        tools:ignore="SpUsage"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginTop="@dimen/top_margin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/imv_ovocal_d_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ovocal_d_logo"
+        android:layout_marginEnd="@dimen/rightmargin"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/sub_text_ovocald"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="5dp"
+        android:textColor="@color/mild_gray_color"
+        android:text="Calcium 500mg legshell source &amp; vitamin D,200 IU Tablet"
+        app:layout_constraintTop_toBottomOf="@id/imv_ovocal_d_logo"
+        app:layout_constraintStart_toStartOf="@id/imv_ovocal_d_logo"
+        app:layout_constraintEnd_toEndOf="@id/imv_ovocal_d_logo"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_marginStart="@dimen/left_margin"
+        android:layout_marginEnd="@dimen/rightmargin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sub_text_ovocald"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/top_margin"
+           app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/buttongroups"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="প্রয়োজনীয় দোয়া"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/sub_head_line_size"
+                    tools:ignore="SpUsage"
+                    android:layout_marginBottom="@dimen/bottom_margin"
+                    android:layout_marginTop="@dimen/top_margin"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="রোজার নিয়ত
+
+نويت ان اصوم غدا من شهر رمضان المبارك فرضا لك ياالله فتقبل منى انك انت السميع العليم
+
+(নাওয়াইতু আন আছুমা গাদাম মিন শাহরি রমাজানাল মুবারাকি ফারদাল্লাকা, ইয়া আল্লাহু ফাতাকাব্বাল মিন্নি ইন্নিকা আনতাস সামিউল আলিম।)
+অর্থ: হে আল্লাহ! আগামীকাল পবিত্র রমযান মাসে তোমার পক্ষ হতে ফরয করা রোজা রাখার নিয়ত করলাম, অতএব তুমি আমার পক্ষ হতে কবুল কর, নিশ্চয়ই তুমি সর্বশ্রোতা ও সর্বজ্ঞানী।"
+                    android:textColor="@color/white"
+                   android:textSize="@dimen/text_small_11"
+                   android:padding="8dp"
+                    android:background="@drawable/outline_border"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ইফতারের দোয়া
+اللهم لك صمت و على رزقك افطرت.
+(আল্লাহুম্মা লাকা ছুমতু ওয়া আলা রিযক্বিকা ওয়া আফতারতু বিরাহমাতিকা ইয়া আরহামার রাহিমীন।)
+অর্থ: হে আল্লাহ! আমি তোমারই সন্তুষ্টির জন্য রোজা রেখেছি এবং তোমারই দেয়া রিযিক্ব দ্বারা ইফতার করছি।"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_small_11"
+                    android:padding="8dp"
+                    android:background="@drawable/outline_border"
+                    android:layout_marginTop="@dimen/top_margin"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                 android:text="তারাবির নামাজের নিয়ত
+
+نويت ان اصلى لله تعالى ركعتى صلوة التراويح سنة رسول الله تعالى متوجها الى جهة الكعبة الشريفة الله اكبر
+
+(নাওয়াইতু আন উসাল্লিয়া লিল্লাহি তায়ালা, রাকাআতাই সালাতিত তারাবিহ সুন্নাতু রাসূলিল্লাহি তায়ালা, মুতাওয়াজ্জিহান ইলা জিহাতিল কাবাতিশ শারিফাতি, আল্লাহু আকবার।)
+
+অর্থ : আমি কেবলামুখি হয়ে দু’রাকাত তারাবির সুন্নতে মুয়াক্কাদা নামাজের নিয়ত করছি; আল্লাহু আকবার।"
+                         android:textColor="@color/white"
+                    android:textSize="@dimen/text_small_11"
+                    android:padding="8dp"
+                    android:background="@drawable/outline_border"
+
+                    android:layout_marginTop="@dimen/top_margin"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                 android:text="তারাবির নামাজের দোয়া
+
+৪ রাকাআত তারাবিহ আদায় করার পর ব্যাপক প্রচলিত একটি দোয়া রয়েছে। যা দেশের প্রায় মসজিদে পড়া হয়। আর তাহলো-
+
+سُبْحانَ ذِي الْمُلْكِ وَالْمَلَكُوتِ سُبْحانَ ذِي الْعِزَّةِ وَالْعَظْمَةِ وَالْهَيْبَةِ وَالْقُدْرَةِ وَالْكِبْرِيَاءِ وَالْجَبَرُوْتِ سُبْحَانَ الْمَلِكِ الْحَيِّ الَّذِيْ لَا يَنَامُ وَلَا يَمُوْتُ اَبَدًا اَبَدَ سُبُّوْحٌ قُدُّوْسٌ رَبُّنا وَرَبُّ المْلائِكَةِ وَالرُّوْحِ
+
+উচ্চারণ : ‘সুবহানা জিল মুলকি ওয়াল মালাকুতি, সুবহানা জিল ইয্যাতি ওয়াল আঝমাতি ওয়াল হায়বাতি ওয়াল কুদরাতি ওয়াল কিব্রিয়ায়ি ওয়াল ঝাবারুতি। সুবহানাল মালিকিল হাইয়্যিল্লাজি লা ইয়ানামু ওয়া লা ইয়ামুত আবাদান আবাদ; সুব্বুহুন কুদ্দুসুন রাব্বুনা ওয়া রাব্বুল মালায়িকাতি ওয়ার রূহ।’"
+                             android:textColor="@color/white"
+                    android:textSize="@dimen/text_small_11"
+                    android:padding="8dp"
+                    android:background="@drawable/outline_border"
+
+                    android:layout_marginTop="@dimen/top_margin"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                 android:text="তারাবিহ নামাজের মুনাজাত
+
+اَللَهُمَّ اِنَّا نَسْئَالُكَ الْجَنَّةَ وَ نَعُوْذُبِكَ مِنَ النَّارِ يَا خَالِقَ الْجَنَّةَ وَالنَّارِ- بِرَحْمَتِكَ يَاعَزِيْزُ يَا غَفَّارُ يَا كَرِيْمُ يَا سَتَّارُ يَا رَحِيْمُ يَاجَبَّارُ يَاخَالِقُ يَابَارُّ - اَللَّهُمَّ اَجِرْنَا مِنَ النَّارِ يَا مُجِيْرُ يَا مُجِيْرُ يَا مُجِيْرُ- بِرَحْمَتِكَ يَا اَرْحَمَ الرَّحِمِيْنَ
+
+উচ্চারণ : আল্লাহুম্মা ইন্না নাসআলুকাল জান্নাতা ওয়া নাউজুবিকা মিনাননার। ইয়া খালিক্বাল জান্নাতি ওয়ান নার। বিরাহমাতিকা ইয়া আঝিঝু ইয়া গাফফার, ইয়া কারিমু ইয়া সাত্তার, ইয়া রাহিমু ইয়া ঝাব্বার, ইয়া খালিকু ইয়া বার্রু। আল্লাহুম্মা আঝিরনা মিনান নার। ইয়া মুঝিরু, ইয়া মুঝিরু, ইয়া মুঝির। বিরাহমাতিকা ইয়া আরহামার রাহিমিন।’
+
+"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_small_11"
+                    android:padding="8dp"
+                    android:background="@drawable/outline_border"
+
+                    android:layout_marginTop="@dimen/top_margin"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/buttongroups"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/text_full_schedule"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="@string/text_full_schedule"
+                android:textColor="@color/white"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textSize="@dimen/sub_head_line_size"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/text_dowa"
+                android:background="@drawable/outline_border"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/text_dowa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="@string/text_dowa"
+                android:textColor="@color/white"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:textSize="@dimen/sub_head_line_size"
+                app:layout_constraintEnd_toStartOf="@id/text_district_change"
+                app:layout_constraintStart_toEndOf="@id/text_full_schedule"
+                android:background="@drawable/outline_border"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/text_district_change"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="@string/text_district_change"
+                android:textColor="@color/white"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textSize="@dimen/sub_head_line_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:background="@drawable/outline_border"
+                app:layout_constraintStart_toEndOf="@id/text_dowa"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

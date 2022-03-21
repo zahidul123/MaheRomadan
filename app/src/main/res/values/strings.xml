@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ovocal-D Ramadan Alert</string>
+    <string name="text_mahe_romjan">মাহে রমজান</string>
+    <string name="text_district_names">জেলা নির্বাচন করুন</string>
+    <string name="text_next_shahari">পরবর্তী সেহেরীর \nশেষ সময়</string>
+    <string name="text_today_shahari">আজকের সেহেরীর \nসময়</string>
+    <string name="text_today_ifter">আজকের ইফতারের \nসময়</string>
+    <string name="text_next_ifter">পরবর্তী ইফতারের \nশেষ সময়</string>
+    <string name="text_salat_schedule">নামাযের সময়সূচী</string>
+    <string name="text_full_schedule">সম্পূর্ণ সূচী</string>
+    <string name="text_somoi_schedule">সময় সূচী</string>
+    <string name="text_dowa">দোয়া</string>
+    <string name="text_district_change">জেলা পরিবর্তন</string>
+    <string name="text_district_time">জেলার সময়সূচী</string>
+    <string name="text_sunrise">সূর্যোদয়</string>
+    <string name="text_sunset">সূর্যাস্ত</string>
+
+
+</resources>

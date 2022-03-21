@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left_margin">15dp</dimen>
+    <dimen name="rightmargin">15dp</dimen>
+    <dimen name="top_margin">15dp</dimen>
+    <dimen name="bottom_margin">15dp</dimen>
+    <dimen name="divider_margin">5dp</dimen>
+
+    <dimen name="head_line_size">22dp</dimen>
+    <dimen name="sub_head_line_size">16dp</dimen>
+    <dimen name="text_medium_14">14dp</dimen>
+    <dimen name="text_small_11">11dp</dimen>
+
+</resources>

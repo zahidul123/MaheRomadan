@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.SplashFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_front"
+        android:scaleType="fitXY"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".5"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".32"
+        />
+    <TextView
+        android:id="@+id/txt_mahe_romjan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_mahe_romjan"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/guideline_1"
+        app:layout_constraintTop_toBottomOf="@id/guideline_2"
+        />
+    <ImageView
+        android:id="@+id/imv_ovocal_d_logo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ovocal_d_logo"
+        app:layout_constraintEnd_toEndOf="@id/txt_mahe_romjan"
+        app:layout_constraintStart_toStartOf="@id/guideline_1"
+        app:layout_constraintTop_toBottomOf="@id/txt_mahe_romjan"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="6dp"
+        android:paddingBottom="21dp"
+        android:textColor="@color/mild_gray_color"
+        android:text="Calcium 500mg legshell source &amp; vitamin D,200 IU Tablet"
+       app:layout_constraintTop_toBottomOf="@id/imv_ovocal_d_logo"
+        app:layout_constraintStart_toStartOf="@id/imv_ovocal_d_logo"
+        app:layout_constraintEnd_toEndOf="@id/imv_ovocal_d_logo"
+        />
+
+    <TextView
+        android:id="@+id/version_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottom_margin"
+        android:text="V 2022.01"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_full_white_screen"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@id/version_code"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
